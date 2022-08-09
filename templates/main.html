@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="Abdukarim" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>App Home-Node</title>
+	<!-- TITLE ICON -->
+	<link rel="icon" href="../staticfiles/img/title_logo.webp" sizes="192x192">
+	<!-- BOOTSTRAP CDN v5.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- FONTAWESOME CDN v6.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOSTRAP ICONS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+	<!-- SWIPERJS CDN -->
+	<link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!-- LOCAL STYLES -->
+    <link rel="stylesheet" type="text/css" href="../staticfiles/css/main.css">
+</head>
+<body>
+	<header>
+		<!-- START NAVBAR -->
+		<section class="header_top_navbar">
+			<div class="container_node">
+				<nav class="navbar_node">
+
+					<div class="search_block">
+						<div class="container_node h-100">
+							 <div class="search">
+							  		<div class="search_input">
+							  			<input type="text" placeholder="Search" name="search">
+							  		</div>
+							  		<div class="search_close">
+							  			<a onclick="closeSearchBlock()">
+							  				<i class="fa fa-times"></i>
+							  			</a>
+							  		</div>
+							 </div>
+						</div>
+					</div>	
+					<!-- START NAVBAR LEFT -->
+					<div class="navbar_left">
+						<div class="menu_bar">
+							<a onclick="navbarShowClose()">
+								<i class="fa fa-bars"></i>
+							</a>
+						</div>
+						<div>
+							<a href="" class="logoimg">
+								<img src="../staticfiles/img/logo.png" >
+							</a>
+						</div>
+						<div>
+							
+						</div>
+					</div>
+					<!-- END NAVBAR LEFT -->
+
+					<!-- START NAVBAR RIGHT  -->
+					<div class="navbar_right">
+						<ul class="menu_list">
+							<li onclick="dropdowns(this)">
+								<a>home <i class="fas fa-chevron-down"></i></a>
+								<!-- START DROPDOWNS -->
+								<div class="dropdown_hover dropdown_center_block">
+									<div class="dropdown_block row ">
+										<div class="col">
+											<ul>
+												<li>
+													<a href="">Agency Home</a>
+												</li>
+												<li>
+													<a href="">Meetup Home</a>
+												</li>
+												<li>
+													<a href="">Masonry Home</a>
+												</li>
+												<li>
+													<a href="">Business Home</a>
+												</li>
+												<li>
+													<a href="">App Home</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col">
+											<ul>
+												<li>
+													<a href="">Modern Shop</a>
+												</li>
+												<li>
+													<a href="">Personal Home</a>
+												</li>
+												<li>
+													<a href="">Blog Home</a>
+												</li>
+												<li>
+													<a href="">One Page Home</a>
+												</li>
+												<li>
+													<a href="">Shop Home</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col">
+											<ul>
+												<li>
+													<a href="">Boxed Home</a>
+												</li>
+												<li>
+													<a href="">Portfolio Home</a>
+												</li>
+												<li>
+													<a href="">Startup Home</a>
+												</li>
+												<li>
+													<a href="">Company Home</a>
+												</li>
+												<li>
+													<a href="">Corporate Home</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col">
+											<ul>
+												<li>
+													<a href="">Coming Soon</a>
+												</li>
+												<li>
+													<a href="">vCard Home</a>
+												</li>
+												<li>
+													<a href="">Maintenance Mode</a>
+												</li>
+												<li>
+													<a href="">Landing</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- END DROPDOWNS -->
+							</li>
+							<li onclick="dropdowns(this)">
+								<a>pages <i class="fas fa-chevron-down"></i></a>
+								<div class="dropdown_hover dropdown_one_block">
+									<ul>
+										<li>
+											<a href="">About Me</a>
+										</li>
+										<li>
+											<a href="">Who We Are</a>
+										</li>
+										<li>
+											<a href="">What We Do</a>
+										</li>
+										<li>
+											<a href="">Services</a>
+										</li>
+										<li>
+											<a href="">Our Story</a>
+										</li>
+										<li>
+											<a href="">Our Process</a>
+										</li>
+										<li>
+											<a href="">FAQ</a>
+										</li>
+										<li>
+											<a href="">About Us</a>
+										</li>
+										<li>
+											<a href="">Contact</a>
+										</li>
+										<li>
+											<a href="">Contact 2</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li onclick="dropdowns(this)">
+								<a>blog <i class="fas fa-chevron-down"></i></a>
+								<div class="dropdown_hover dropdown_one_block">
+									<ul>
+										<li>
+											<a href="">Standard Right Sidebar</a>
+										</li>
+										<li>
+											<a href="">Standard Left Sidebar</a>
+										</li>
+										<li>
+											<a href="">Split Column</a>
+										</li>
+										<li>
+											<a href="">Masonry Grid</a>
+										</li>
+										<li>
+											<a href="">Masonry Wide</a>
+										</li>
+										<li>
+											<a href="">Post Types</a>
+										</li>
+									</ul>
+								</div>	
+							</li>
+							<li onclick="dropdowns(this)">
+								<a>portfolio <i class="fas fa-chevron-down"></i></a>
+								<!-- START DROPDOWNS -->
+								<div class="dropdown_hover dropdown_center_block">
+									<div class="dropdown_block row">
+										<div class="col">
+											<ul>
+												<li>
+													<a href="">STANDARD</a>
+												</li>
+												<li>
+													<a href="">Two Columns Grid</a>
+												</li>
+												<li>
+													<a href="">Two Columns Wide</a>
+												</li>
+												<li>
+													<a href="">Three Columns Grid</a>
+												</li>
+												<li>
+													<a href="">Three Columns Wide</a>
+												</li>
+												<li>
+													<a href="">Four Columns Grid</a>
+												</li>
+												<li>
+													<a href="">Four Columns Wide</a>
+												</li>
+												<li>
+													<a href="">Five Columns Wide</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col">
+											<ul>
+												<li>
+													<a href="">GALLERY</a>
+												</li>
+												<li>
+													<a href="">Three Columns Grid</a>
+												</li>
+												<li>
+													<a href="">Three Columns Wide</a>
+												</li>
+												<li>
+													<a href="">Four Columns Wide</a>
+												</li>
+												<li>
+													<a href="">Three Columns Grid Space</a>
+												</li>
+												<li>
+													<a href="">Four Columns Grid Space</a>
+												</li>
+												<li>
+													<a href="">Three Columns Wide Space</a>
+												</li>
+												<li>
+													<a href="">Four Columns Wide Space</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col">
+											<ul>
+												<li>
+													<a href="">MASONRY & PINTEREST</a>
+												</li>
+												<li>
+													<a href="">Masonry Grid</a>
+												</li>
+												<li>
+													<a href="">Masonry Wide</a>
+												</li>
+												<li>
+													<a href="">Pinterest Grid</a>
+												</li>
+												<li>
+													<a href="">Pinterest Wide</a>
+												</li>
+												<li>
+													<a href="">Pinterest Grid Space</a>
+												</li>
+												<li>
+													<a href="">Pinterest Wide Space</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col">
+											<ul>
+												<li>
+													<a href="">PORTFOLIO SINGLE</a>
+												</li>
+												<li>
+													<a href="">Small Images</a>
+												</li>
+												<li>
+													<a href="">Small Slider</a>
+												</li>
+												<li>
+													<a href="">Big Images</a>
+												</li>
+												<li>
+													<a href="">Big Slider</a>
+												</li>
+												<li>
+													<a href="">Gallery</a>
+												</li>
+												<li>
+													<a href="">Small Masonry</a>
+												</li>
+												<li>
+													<a href="">Big Masonry</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- END DROPDOWNS -->
+							</li>
+							<li onclick="dropdowns(this)">
+								<a>shop <i class="fas fa-chevron-down"></i></a>
+								<div class="dropdown_hover dropdown_one_block">
+									<ul>
+										<li>
+											<a href="">Shop With Sidebar</a>
+										</li>
+										<li>
+											<a href="">Shop Three Columns</a>
+										</li>
+										<li>
+											<a href="">Shop Four Columns</a>
+										</li>
+										<li>
+											<a href="">Shop Full Width</a>
+										</li>
+										<li>
+											<a href="">Shop Masonry</a>
+										</li>
+										<li>
+											<a href="">Single Product</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li onclick="dropdowns(this)">
+								<a>elements <i class="fas fa-chevron-down"></i></a>
+								<!-- START DROPDOWNS -->
+								<div class="dropdown_hover dropdown_center_block">
+									<div class="dropdown_block row">
+										<div class="col">
+											<ul>
+												<li>
+													<a href="">TYPOGRAPHY</a>
+												</li>
+												<li>
+													<a href="">Headings</a>
+												</li>
+												<li>
+													<a href="">Columns</a>
+												</li>
+												<li>
+													<a href="">Title</a>
+												</li>
+												<li>
+													<a href="">Highlights</a>
+												</li>
+												<li>
+													<a href="">Dropcaps</a>
+												</li>
+												<li>
+													<a href="">Blockquote</a>
+												</li>
+												<li>
+													<a href="">Custom Font</a>
+												</li>
+												<li>
+													<a href="">Lists</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col">
+											<ul>
+												<li>
+													<a href="">CHARTS & DIAGRAMS</a>
+												</li>
+												<li>
+													<a href="">Pie Charts</a>
+												</li>
+												<li>
+													<a href="">Pricing Tables</a>
+												</li>
+												<li>
+													<a href="">Progress Bars</a>
+												</li>
+												<li>
+													<a href="">Process</a>
+												</li>
+												<li>
+													<a href="">Counters</a>
+												</li>
+												<li>
+													<a href="">Countdown</a>
+												</li>
+												<li>
+													<a href="">Icon With Text</a>
+												</li>
+												<li>
+													<a href="">Message Boxes</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col">
+											<ul>
+												<li>
+													<a href="">CLASSIC</a>
+												</li>
+												<li>
+													<a href="">Accordions & Toggles</a>
+												</li>
+												<li>
+													<a href="">Buttons</a>
+												</li>
+												<li>
+													<a href="">Tabs</a>
+												</li>
+												<li>
+													<a href="">Separators</a>
+												</li>
+												<li>
+													<a href="">Image Gallery</a>
+												</li>
+												<li>
+													<a href="">Call To Action</a>
+												</li>
+												<li>
+													<a href="">Contact Form 7</a>
+												</li>
+                                                <li>
+                                                	<a href="">Google Maps</a>
+                                                </li>
+											</ul>
+										</div>
+										<div class="col">
+											<ul>
+												<li>
+													<a href="">INTERACTIVE</a>
+												</li>
+												<li>
+													<a href="">Item Showcase List</a>
+												</li>
+												<li>
+													<a href="">Carousel Image Gallery</a>
+												</li>
+												<li>
+													<a href="">Video Button</a>
+												</li>
+												<li>
+													<a href="">Blog Posts</a>
+												</li>
+												<li>
+													<a href="">Testimonials</a>
+												</li>
+												<li>
+													<a href="">Clients Carousel</a>
+												</li>
+												<li>
+													<a href="">Team</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- END DROPDOWNS -->
+							</li>
+							<li>
+								<a onclick="showSearchBlock()">
+									<i class="fa fa-search"></i>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<i class="far fa-clipboard"></i>
+								</a>
+								<div class="navbar_right_counter">
+									0
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- END NAVBAR RIGHT -->
+				</nav>
+			</div>
+		</section>
+		<!-- END NAVBAR -->
+		<!-- START HEADER MIDDLE SECTION -->
+		<section class="header_middle_section">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 header_middle_left">
+						<div class="middel_left_block">
+							<h1 class="display-1">
+								Essence Of Creativity
+							</h1>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Earum possimus magni libero, unde soluta esse perspiciatis, sunt a placeat sit deserunt, minus. Neque, corporis? Voluptatibus dolorum est, mollitia deserunt. Minus.
+							</p>
+							<div>
+								<a class="btns_all">
+									<button>PURCHASE THEME</button>
+								</a>
+								<a class="btns_all">
+									<button>DOWNLOAD APP</button>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center">
+						<div class="mobile_picture_left">
+							<a>
+								<img src="../staticfiles/img/app-home-mockup-mobile.png" alt="">
+							
+							</a>
+						</div>
+						<div class="mobile_picture_right">
+							<a>
+								<img src="../staticfiles/img/app-home-mockup-2.png"  alt="" >
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END HEADER MIDDLE SECTION  -->
+	</header>
+	<main>
+		<section class="main_first_section mb-4">
+			<div class="container_node_main">
+				<div class="main_sc1_texts">
+					<h1 class="display-2">
+						About App
+					</h1>
+					<p>
+						Strategy Planning
+					</p>
+					<div class="yellow_line">
+						
+					</div>
+				</div>
+				<div class="main_sc1_img">
+					<div>
+						<a>
+							<img src="../staticfiles/img/home-5-section-slide-layer-3.png" alt="">
+						</a>	
+					</div>
+					<div>
+						<a>
+							<img src="../staticfiles/img/home-5-section-slide-layer-2.png" alt="">
+						</a>
+					</div>
+					<div>
+						<a>
+							<img src="../staticfiles/img/home-5-section-slide-layer-1.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="container_node">
+					<div class="row">
+						<div class="col-md-12 col-lg-4 col-xl-4 mb-4">
+							<div class="main_sc1_text_blocks">
+								<div class="text_blocks_header">
+									<div>
+										01
+									</div>
+									<p>
+										Company Analysis
+									</p>
+								</div>
+								<div class="text_blocks_main">
+									<p>
+										Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.
+									</p>
+								</div>
+								<div class="text_blocks_footer">
+									<p>
+										<a>Read More</a> <i class="bi bi-arrow-right"></i>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-4 col-xl-4 mb-4">
+							<div class="main_sc1_text_blocks">
+								<div class="text_blocks_header">
+									<div>
+										02
+									</div>
+									<p>
+										Perfect Design
+									</p>
+								</div>
+								<div class="text_blocks_main">
+									<p>
+										Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.
+									</p>
+								</div>
+								<div class="text_blocks_footer">
+									<p>
+										<a>Read More</a> <i class="bi bi-arrow-right"></i>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-4 col-xl-4 mb-4">
+							<div class="main_sc1_text_blocks">
+								<div class="text_blocks_header">
+									<div>
+										03
+									</div>
+									<p>
+										Happy Clients
+									</p>
+								</div>
+								<div class="text_blocks_main">
+									<p>
+										Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et.
+									</p>
+								</div>
+								<div class="text_blocks_footer">
+									<p>
+										<a>Read More</a> <i class="bi bi-arrow-right"></i>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main_second_section">
+				<div class="container_node_main_large">
+					<div class="main_sc2_bg_img">
+						<div class="main_sc2_counter" id="264">
+							<p><i class="bi bi-cloud-arrow-down"></i></p>
+							<h1 class="display-1">
+								0
+							</h1>
+							<span>
+								Completed Design
+							</span>
+						</div>
+						<div class="main_sc2_counter" id="358">
+							<p><i class="bi bi-laptop"></i></p>
+							<h1 class="display-1">
+								0
+							</h1>
+							<span>
+								Current Projects
+							</span>
+						</div>
+						<div class="main_sc2_counter" id="465">
+							<p><i class="bi bi-people"></i></p>
+							<h1 class="display-1">
+								0
+							</h1>
+							<span>
+								Team Members
+							</span>
+						</div>
+						<div class="main_sc2_counter" id="85">
+							<p><i class="bi bi-gear"></i></p>
+							<h1 class="display-1">
+								0
+							</h1>
+							<span>
+								Created Features
+							</span>
+						</div>
+					</div>
+				</div>
+		</section>
+		<section class="main_third_section">
+			<div class="container_node_main_large">
+				<div class="main_sc3_android_ios_block">
+					<div class="sc3_android">
+						<p>
+							Application For Android
+						</p>
+						<p>
+							Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius.
+						</p>
+						<a class="btns_all">
+							<button>VIEW MORE</button>
+						</a>
+					</div>
+					<div class="sc3_ios">
+						<p>
+							Application For Ios
+						</p>
+						<p>
+							Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt vix at, vel pertinax sensibus id, error epicurei mea et. Mea facilisis urbanitas moderatius.
+						</p>
+						<a class="btns_all">
+							<button>VIEW MORE</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main_fourth_section">
+			<div class="container_node">
+				<div class="main_sc4_text">
+					<h1 class="display-1">
+						Application Features
+					</h1>
+					<p>
+						Creative Process
+					</p>
+					<div class="yellow_line">
+						
+					</div>
+				</div>
+				<div class="main_sc4_features">
+					<div class="sc4_mobile_picture_separate">
+						<a href="">
+							<img src="../staticfiles/img/app-home-mockup-mobile.png" alt="">
+						</a>
+					</div>
+					<div class="sc4_text_picture">
+					    <div class="sc4_left_texts_block">
+					  		<div class="left_text_blocks">
+					  			<div>
+					  				<p>Creating a Strategy</p>
+					  				<p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem.</p>
+					  			</div>
+					  			<div>
+					  				<i class="bi bi-laptop"></i>
+					  			</div>
+					  		</div>
+					  		<div class="left_text_blocks">
+					  			<div>
+					  				<p>New Shortcodes</p>
+					  				<p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem.</p>
+					  			</div>
+					  			<div>
+					  				<i class="bi bi-people"></i>
+					  			</div>
+					  		</div>
+					  		<div class="left_text_blocks">
+					  			<div>
+					  				<p>Revolution Slider</p>
+					  				<p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem.</p>
+					  			</div>
+					  			<div>
+					  				<i class="bi bi-cloud-arrow-down"></i></p>
+					  			</div>
+					  		</div>
+					    </div>
+					    <div class="sc4_center_picture">
+					    	<a href="">
+							   <img src="../staticfiles/img/app-home-mockup-mobile.png" alt="">
+						    </a>
+					    </div>
+					    <div class="sc4_right_texts_block">
+					    	<div class="right_text_blocks">
+					    		<div>
+					  				<i class="bi bi-gear"></i>
+					  			</div>
+					  			<div>
+					  				<p>Attention to Detail</p>
+					  				<p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem.</p>
+					  			</div>
+					  		</div>
+					  		<div class="right_text_blocks">
+					    		<div>
+					  				<i class="bi bi-geo-alt"></i>
+					  			</div>
+					  			<div>
+					  				<p>	Creative Elements</p>
+					  				<p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem.</p>
+					  			</div>
+					  		</div>
+					  		<div class="right_text_blocks">
+					    		<div>
+					  				<i class="bi bi-camera"></i>
+					  			</div>
+					  			<div>
+					  				<p>Loads of Layouts</p>
+					  				<p>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei an pericula euripidis, hinc partem.</p>
+					  			</div>
+					  		</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main_fiveth_section">
+			<div class="container_node">
+				<div class="swiper sc5_swiper">
+				      <div class="swiper-wrapper">
+					        <div class="swiper-slide">
+					        	<div class="sc5_slider_carts">
+					        		<div class="sc5_cart_texts">
+					        			<p>All I Needed</p>
+					        			<p>
+					        				‘’ Nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Alienum phaedrum torquatos nec a condimentum .’’
+					        			</p>
+					        		</div>	
+					        		<div class="sc5_clip_path">
+					        			
+					        		</div>	
+					        		<div class="sc5_users">
+					        			<div class="sc5_user_picture">
+					        				<img src="../staticfiles/img/testimonials-image-4.png" alt="">
+					        			</div>
+					        			<div class="sc5_user_name">
+					        				<p>Gregory Barker</p>
+					        				<span>Theme User</span>
+					        			</div>
+					        		</div>
+					        	</div>
+					        </div>
+					        <div class="swiper-slide">
+					        	<div class="sc5_slider_carts">
+					        		<div class="sc5_cart_texts">
+					        			<p>All I Needed</p>
+					        			<p>
+					        				‘’ Nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Alienum phaedrum torquatos nec a condimentum .’’
+					        			</p>
+					        		</div>	
+					        		<div class="sc5_clip_path">
+					        			
+					        		</div>	
+					        		<div class="sc5_users">
+					        			<div class="sc5_user_picture">
+					        				<img src="../staticfiles/img/testimonials-image-6.png" alt="">
+					        			</div>
+					        			<div class="sc5_user_name">
+					        				<p>Gregory Barker</p>
+					        				<span>Theme User</span>
+					        			</div>
+					        		</div>
+					        	</div>
+					        </div>
+					        <div class="swiper-slide">
+					        	<div class="sc5_slider_carts">
+					        		<div class="sc5_cart_texts">
+					        			<p>All I Needed</p>
+					        			<p>
+					        				‘’ Nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Alienum phaedrum torquatos nec a condimentum .’’
+					        			</p>
+					        		</div>	
+					        		<div class="sc5_clip_path">
+					        			
+					        		</div>	
+					        		<div class="sc5_users">
+					        			<div class="sc5_user_picture">
+					        				<img src="../staticfiles/img/testimonials-image-9.png" alt="">
+					        			</div>
+					        			<div class="sc5_user_name">
+					        				<p>Gregory Barker</p>
+					        				<span>Theme User</span>
+					        			</div>
+					        		</div>
+					        	</div>
+					        </div>
+					        <div class="swiper-slide">
+					        	<div class="sc5_slider_carts">
+					        		<div class="sc5_cart_texts">
+					        			<p>All I Needed</p>
+					        			<p>
+					        				‘’ Nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Alienum phaedrum torquatos nec a condimentum .’’
+					        			</p>
+					        		</div>	
+					        		<div class="sc5_clip_path">
+					        			
+					        		</div>	
+					        		<div class="sc5_users">
+					        			<div class="sc5_user_picture">
+					        				<img src="../staticfiles/img/testimonials-image-4.png" alt="">
+					        			</div>
+					        			<div class="sc5_user_name">
+					        				<p>Gregory Barker</p>
+					        				<span>Theme User</span>
+					        			</div>
+					        		</div>
+					        	</div>
+					        </div>
+					        <div class="swiper-slide">
+					        	<div class="sc5_slider_carts">
+					        		<div class="sc5_cart_texts">
+					        			<p>All I Needed</p>
+					        			<p>
+					        				‘’ Nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Alienum phaedrum torquatos nec a condimentum .’’
+					        			</p>
+					        		</div>	
+					        		<div class="sc5_clip_path">
+					        			
+					        		</div>	
+					        		<div class="sc5_users">
+					        			<div class="sc5_user_picture">
+					        				<img src="../staticfiles/img/testimonials-image-6.png" alt="">
+					        			</div>
+					        			<div class="sc5_user_name">
+					        				<p>Gregory Barker</p>
+					        				<span>Theme User</span>
+					        			</div>
+					        		</div>
+					        	</div>
+					        </div>
+					        <div class="swiper-slide">
+					        	<div class="sc5_slider_carts">
+					        		<div class="sc5_cart_texts">
+					        			<p>All I Needed</p>
+					        			<p>
+					        				‘’ Nihil expetendis in mei. Mei an pericula euripidis, hinc partem ei est. Alienum phaedrum torquatos nec a condimentum .’’
+					        			</p>
+					        		</div>	
+					        		<div class="sc5_clip_path">
+					        			
+					        		</div>	
+					        		<div class="sc5_users">
+					        			<div class="sc5_user_picture">
+					        				<img src="../staticfiles/img/testimonials-image-9.png" alt="">
+					        			</div>
+					        			<div class="sc5_user_name">
+					        				<p>Gregory Barker</p>
+					        				<span>Theme User</span>
+					        			</div>
+					        		</div>
+					        	</div>
+					        </div>
+				      </div>
+			      <div class="swiper-button-next for_vertical_left"></div>
+			      <div class="swiper-button-prev for_vertical_right"></div>
+			    </div>
+			</div>
+		</section>
+		<section class="main_sixth_section">
+			 <div class="container_node">
+				 	<div class="sc6_app_gallery">
+				 		<h1 class="display-2">
+				 			App Gallery
+				 		</h1>
+				 		<p>
+				 			Work Inspiration
+				 		</p>
+				 		<div class="yellow_line">
+				 			
+				 		</div>
+				 	</div>
+				 	<div class="swiper sc6_swiper">
+				      <div class="swiper-wrapper">
+				        <div class="swiper-slide">
+				        	<a>
+				        		<img src="../staticfiles/img/app-gallery-image-1-b.jpg" alt="">
+				        	</a>
+				        </div>
+				        <div class="swiper-slide">
+				        	<a>
+				        		<img src="../staticfiles/img/app-gallery-image-5b_Copy.jpg" alt="">
+				        	</a>
+				        </div>
+				        <div class="swiper-slide">
+				        	<a>
+				        		<img src="../staticfiles/img/app-gallery-image-6-b_Copy_Copy.jpg" alt="">
+				        	</a>
+				        </div>
+				        <div class="swiper-slide">
+				        	<a>
+				        		<img src="../staticfiles/img/app-gallery-image-7-b_Copy_Copy.jpg" alt="">
+				        	</a>
+				        </div>
+				        <div class="swiper-slide">
+				        	<a>
+				        		<img src="../staticfiles/img/app-gallery-image-8-b_Copy_Copy.jpg" alt="">
+				        	</a>
+				        </div>
+				        <div class="swiper-slide">
+				        	<a>
+				        		<img src="../staticfiles/img/app-gallery-image-4-b.jpg" alt="">
+				        	</a>
+				        </div> 
+				      </div>
+				      <div class="swiper-button-next sc6_control"></div>
+			      	  <div class="swiper-button-prev sc6_control"></div>
+			      	  <div class="swiper-pagination sc6_pagination"></div>
+				    </div>
+			 </div>
+		</section>
+		<div class="main_seventh_section">
+			<div class="container_node">
+				<div class="sc7_developres">
+					<h1 class="display-2">
+						Developer Latest News
+					</h1>
+					<p>Duo an malis posidonium.</p>
+					<div class="yellow_line">
+						
+					</div>
+				</div>
+				<div class="swiper sc7_swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="sc7_carts">
+								<div class="sc7_cart_title">
+									<p class="sc7_title">Pursuing perfection</p>
+									<div class="sc7_cart_rows">
+										<p>by Jane Doe</p>
+										<p>Competition</p>
+										<p>Feb 29, 2016</p>
+									</div>
+								</div>
+								<div class="sc7_cart_main">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean feugiat dictum lacus, ut hendrerit mi pulvinar vel. Fusce id nibh at ne...</p>
+								</div>
+								<div class="text_blocks_footer">
+									<p>
+										<a>Read More</a>
+										<i class="bi bi-arrow-right"></i>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="sc7_carts">
+								<div class="sc7_cart_title">
+									<p class="sc7_title">Pursuing perfection</p>
+									<div class="sc7_cart_rows">
+										<p>by Jane Doe</p>
+										<p>Competition</p>
+										<p>Feb 29, 2016</p>
+									</div>
+								</div>
+								<div class="sc7_cart_main">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean feugiat dictum lacus, ut hendrerit mi pulvinar vel. Fusce id nibh at ne...</p>
+								</div>
+								<div class="text_blocks_footer">
+									<p>
+										<a>Read More</a>
+										<i class="bi bi-arrow-right"></i>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="sc7_carts">
+								<div class="sc7_cart_title">
+									<p class="sc7_title">Pursuing perfection</p>
+									<div class="sc7_cart_rows">
+										<p>by Jane Doe</p>
+										<p>Competition</p>
+										<p>Feb 29, 2016</p>
+									</div>
+								</div>
+								<div class="sc7_cart_main">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean feugiat dictum lacus, ut hendrerit mi pulvinar vel. Fusce id nibh at ne...</p>
+								</div>
+								<div class="text_blocks_footer">
+									<p>
+										<a>Read More</a>
+										<i class="bi bi-arrow-right"></i>
+									</p>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<div class="swiper-button-next sc6_control"></div>
+			        <div class="swiper-button-prev sc6_control"></div>
+					<div class="swiper-pagination sc6_pagination"></div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<section class="footer_section">
+			<div class="container_node text-white">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+						<div class="footer_navbar_first">
+							<div class="footer_navbar_title">
+								<p>
+									<a>ABOUT THEME HERE</a>
+								</p>
+							</div>
+							<ul>
+								<li>
+									<a>Alienum phaedrum torquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei.</a>
+								</li>
+								<li>
+									<a>Mei an pericula euripidis, hinc partem ei est. Eos ei nisl graecis, vix aperiri consequat an. Eius lorem tincidunt</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+						<div class="footer_navbar_second">
+							<div class="footer_navbar_title">
+								<p>
+									<a>LATEST POSTS HERE</a>
+								</p>
+							</div>
+							<ul>	
+								<li>
+									<p>
+										<a>Street Inspiration</a>
+									</p>
+									<p>
+										Mar 3, 2016
+									</p>
+								</li>
+								<li>
+									<p>
+										<a>Places to get lost</a>
+									</p>
+									<p>
+										Mar 3, 2016
+									</p>
+								</li>
+								<li>
+									<p>
+										<a>Lewis Howes</a>
+									</p>
+									<p>
+										Mar 3, 2016
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+						<div class="footer_navbar_third">
+							<div class="footer_navbar_title">
+								<p>
+									<a>SOME WIDGET HERE</a>
+								</p>
+							</div>
+							<ul>
+								<li>
+									<a>Discover All our Amazing Services</a>
+								</li>
+								<li>
+									<a>Come on Over & Meet the Team</a>
+								</li>
+								<li>
+									<a>Find Out What’s New and Interesting</a>
+								</li>
+								<li>
+									<a>Check Out Our Awesome Projects</a>
+								</li>
+								<li>
+									<a>Have Questions? Drop Us a Note</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mb-4">
+						<div class="footer_navbar_fourth">
+							<div class="footer_navbar_title">
+								<p>
+									<a>FOLLOW US</a>
+								</p>
+							</div>
+							<div class="footer_nav4_images">
+							     <div>
+							     	<a>
+							     		<img src="../staticfiles/img/footerimg1.jpg" alt="">
+							     	</a>
+							     </div>
+							     <div>
+							     	<a>
+							     		<img src="../staticfiles/img/footerimg2.jpg" alt="">
+							     	</a>
+							     </div>
+							     <div>
+							     	<a>
+							     		<img src="../staticfiles/img/footerimg3.jpg" alt="">
+							     	</a>
+							     </div>
+							     <div>
+							     	<a>
+							     		<img src="../staticfiles/img/footerimg4.jpg" alt="">
+							     	</a>
+							     </div>
+							     <div>
+							     	<a>
+							     		<img src="../staticfiles/img/footerimg5.jpg" alt="">
+							     	</a>
+							     </div>
+							     <div>
+							     	<a>
+							     		<img src="../staticfiles/img/footerimg6.jpg" alt="">
+							     	</a>
+							     </div>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="footer_bottom">
+			<div class="container_node">
+			   <div class="footer_bottom_items">
+				 <div class="footer_bottom_left">
+					<p>
+						<a>
+							© 2016 Qode Interactive, All Rights Reserved
+						</a>
+					</p>
+				</div>
+				<div class="footer_bottom_right">
+					<a>
+						<i class="bi bi-instagram"></i>
+					</a>
+					<a>
+						<i class="bi bi-twitter"></i>
+					</a>
+					<a>
+						<i class="bi bi-facebook"></i>
+					</a>
+					<a>
+						<i class="bi bi-instagram"></i>
+					</a>
+					<a>
+						<i class="bi bi-instagram"></i>
+					</a>
+				 </div>
+			   </div>
+			</div>
+		</div>
+	</footer>
+	<!-- SWIPPERJS CDN -->
+	<div class="scane">
+		<div class="cube">
+			<div class="cube_face cube_front">^</div>
+			<div class="cube_face cube_back">^</div>
+			<div class="cube_face cube_right">^</div>
+			<div class="cube_face cube_left">^</div>
+			<div class="cube_face cube_top">^</div>
+			<div class="cube_face cube_bottom">^</div>
+		</div>
+	</div>
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<!-- LOCAL JS -->
+	<script src="../staticfiles/js/main.js"></script>
+</body>
+</html>
